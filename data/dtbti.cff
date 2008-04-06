@@ -1,3 +1,4 @@
+block BtiParametersBlock = {
 PSet BtiParameters = {
   
   untracked int32 Debug 	= 0	# Debug flag 
@@ -66,4 +67,6 @@ PSet BtiParameters = {
   int32 RE43 	= 2	# drift velocity parameter 4RE3
 
   int32 DEAD	= 31	# dead bti parameter
+}
+
 }
